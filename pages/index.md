@@ -8,7 +8,7 @@ permalink: /
 
 Este projeto foi desenvolvido por [mim](https://cassiodeveloper.com.br), inspirado por [Joshua-jebaraj](https://joshuajebaraj.com)
 
-![/assets/img/devsecops.png](/assets/img/devsecops.png)
+![/devsecops/assets/img/devsecops.png](/devsecops/assets/img/devsecops.png)
 
 ## Motivação
 
