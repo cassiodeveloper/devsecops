@@ -8,20 +8,13 @@ permalink: /
 
 Este projeto foi desenvolvido por [mim](https://cassiodeveloper.com.br), inspirado por [Joshua-jebaraj](https://joshuajebaraj.com)
 
-![assets/img/macbook-preview.png](assets/img/macbook-preview.png)
+## Motivação
 
-## Purpose
-
-GitHub pages uses Jekyll natively, so when I make documentation, I typically
-look for Jekyll templates. Why? Using Jekyll means that I can use markdown,
-and allow for users to easily contribute, and build automatically just by
-way of pushing to a master branch (or general GitHub pages).
-I've liked MkDocs in the past, but it required me to use a special renderer.
-I also felt limited in my ability to customize it. The same is true for
-mkdocs material. It's absolutely gorgeous, but was not suited for
-my GitHub pages and customization needs. For this reason, I've spent
-some time creating a custom Jekyll template that is (almost) as beautiful,
-and includes all the features that I might want.
+A motivação deste projeto é documentar de forma abrangente, diversas ferramentas que devem / podem ser utilizadas
+para testes de segurança em diversas etapas de uma pipeline CI/CD.
+Inspirado por [este projeto](https://securing-ci-cd.joshuajebaraj.com/), resolvi criar uma versão em português
+unificada com minha experiência para auxiliar outros profissionais de segurança, empresas que necessitam de segurança
+na pipeline CI/CD, e entusiastas que querem aprender mais sobre DevSecOps.
 
 ## Features
 
