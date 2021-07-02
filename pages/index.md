@@ -18,21 +18,16 @@ Inspirado por [este projeto](https://securing-ci-cd.joshuajebaraj.com/), resolvi
 unificada com minha experiência para auxiliar outros profissionais de segurança, empresas que necessitam de segurança
 na pipeline CI/CD, e entusiastas que querem aprender mais sobre DevSecOps.
 
-## Features
+## Tópicos
 
-What are these features? You should see the {% include doc.html name="Getting Started" path="getting-started" %}
-guide for a complete summary. Briefly:
+Tópicos cobertos por este projeto:
 
- - *User interaction* including consistent permalinks, links to ask questions via GitHub issues, and edit the file on GitHub directly.
- - *Search* across posts, documentation, and other site pages, with an ability to exclude from search.
- - *External Search* meaning an ability to link any page tag to trigger an external search.
- - *Documentation* A documentation collection that was easy to organize on the filesystem, render with nested headings for the user, and refer to in markdown.
- - *Pages* A separate folder for more traditional pages (e.g, about).
- - *Navigation*: Control over the main navigation on the left of the page, and automatic generation of table of contents for each page on the right.
- - *News* A posts feed for news and updates, along with an archive (organized by year).
- - *Templates* or specifically, "includes" that make it easy to create an alert, documentation link, or other content.
- - *Continuous Integration* recipes to preview the site
+ - *SAST* Static Application Security Testing.
+ - *SCA* Software Compostion Analysis 
+ - *DAST* Dynamic Application Security Testing.
+ - *Container Security* Segurança em Containers.
+ - *SBOM* Software Bill of Materials.
+ - *Compliance as Code*: Controles de Compliance.
+ - *IaC* Infrastructure as Code.
 
-
-For features, getting started with development, see the {% include doc.html name="Getting Started" path="getting-started" %} page. Would you like to request a feature or contribute?
-[Open an issue]({{ site.repo }}/issues)
+Você gostaria de solicitar um tópico ou contribuir? [Abra uma issue]({{ site.repo }}/issues)
