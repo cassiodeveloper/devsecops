@@ -6,7 +6,7 @@ permalink: /
 
 # Bem vindo ao projeto Segurança na pipeline CI/CD - DevSecOps
 
-Este projeto foi desenvolvido por ![mim](https://cassiodeveloper.com.br), inspirado por ![Joshua-jebaraj](https://joshuajebaraj.com)
+Este projeto foi desenvolvido por [mim](https://cassiodeveloper.com.br), inspirado por [Joshua-jebaraj](https://joshuajebaraj.com)
 
 ![assets/img/macbook-preview.png](assets/img/macbook-preview.png)
 
