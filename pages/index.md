@@ -1,12 +1,12 @@
 ---
 layout: page
-title: Material Jekyll Theme
+title: Cássio B. Pereira | DevSecOps
 permalink: /
 ---
 
-# Welcome to MkDocs Jekyll
+# Bem vindo ao projeto Segurança na pipeline CI/CD - DevSecOps
 
-This is a starter template for a mkdocs jekyll theme.
+Este projeto foi desenvolvido por ![mim](https://cassiodeveloper.com.br), inspirado por ![Joshua-jebaraj](https://joshuajebaraj.com)
 
 ![assets/img/macbook-preview.png](assets/img/macbook-preview.png)
 
