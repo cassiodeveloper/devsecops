@@ -23,6 +23,14 @@ Checkmarx SAST (CxSAST) é uma solução de análise estática precisa e flexív
 
 ### Checkmarx CxCLI
 
+CLI é um programa de linha de comando que aceita entrada de texto para executar funções do sistema operacional. Nas décadas de 1970 e 1980, a entrada de linha de comando era comumente usada por sistemas Unix e sistemas de PC como MS-DOS e Apple DOS. Hoje, com interfaces gráficas de usuário (GUI), a maioria dos usuários nunca usa interfaces de linha de comando (CLI). No entanto, a CLI ainda é usada por desenvolvedores de software e administradores de sistema para configurar computadores, instalar software e acessar recursos que não estão disponíveis na interface gráfica.
+
+No Checkmarx existem dois modos de executar um scan via CxCLI, o modo síncrono e o assíncrono.
+
+### Modo síncrono
+
+Neste modo, o CxCLI ficará esperando o scan finalizar no servidor Checkmarx e não continuará sua execução até então. Este modo é normalmente utilizado para a "quebra do build" no pipeline.
+
 ```
 ---
 Modo síncrono: runCxConsole Scan -v -CxServer <host> -ProjectName <projectName> -CxUser <username> -CxPassword <password> -LocationType <LocationType> -LocationPath <locationpath>
@@ -30,7 +38,13 @@ Modo síncrono: runCxConsole Scan -v -CxServer <host> -ProjectName <projectName>
 Exemplo Windows: runCxConsole.cmd Scan -v -ProjectName "CxServer/MeuProjeto" -CxServer http://localhost -cxuser username -cxpassword DeVsEcOpS -LocationType folder -LocationPath "C:\Data\Projects\Java\MeuProjeto" -preset "Checkmarx Default"
 
 Exemplo Linux: runCxConsole.sh Scan -v -ProjectName "CxServer/MeuProjeto" -CxServer http://localhost -cxuser username -cxpassword DeVsEcOpS -LocationType folder -LocationPath "C:\Data\Projects\Java\MeuProjeto" -preset "Checkmarx Default"
+---
+```
+### Modo assíncrono
 
+Neste modo, o CxCLI NÃO ficará esperando o scan finalizar no servidor Checkmarx e continuará sua execução independente do resultado do scan. Este modo é normalmente utilizado para NÃO interromper o pipeline.
+```
+---
 Modo assíncrono: runCxConsole AsyncScan -v -CxServer <host> -ProjectName <projectName> -CxUser <username> -CxPassword <password> -LocationType <LocationType> -LocationPath <locationpath>
 
 Exemplo Windows: runCxConsole.cmd AsyncScan -v -ProjectName "CxServer/MeuProjeto" -CxServer http://localhost -cxuser username -cxpassword DeVsEcOpS -LocationType folder -LocationPath "C:\Data\Projects\Java\MeuProjeto" -preset "Checkmarx Default"
