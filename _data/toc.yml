@@ -1,22 +1,37 @@
-- title: "Getting Started"
+- title: "SAST"
   url: "docs/getting-started"
   children:
     - title: Features
       url: "docs/getting-started#getting-started"
-    - title: Development
-      url: "docs/getting-started#development"
-    - title: Customization
-      url: "docs/getting-started#customization"
-- title: "Extras"
+- title: "SCA"
   url: "docs/extras"
   children:
     - title: Quizzes
       url: "docs/extras/example-quiz"
-    - title: Discussion Forum
-      url: "forum"
-    - title: Interactive Code
-      url: "docs/extras/interactive"
+- title: "DAST"
+  url: "docs/getting-started"
+  children:
+    - title: Features
+      url: "docs/getting-started#getting-started"      
+- title: "Container Security"
+  url: "docs/getting-started"
+  children:
+    - title: Features
+      url: "docs/getting-started#getting-started"      
+- title: "SBOM"
+  url: "docs/getting-started"
+  children:
+    - title: Features
+      url: "docs/getting-started#getting-started"      
+- title: "Compliance as a code"
+  url: "docs/getting-started"
+  children:
+    - title: Features
+      url: "docs/getting-started#getting-started"      
+- title: "IaC"
+  url: "docs/getting-started"
+  children:
+    - title: Features
+      url: "docs/getting-started#getting-started"      
 - title: "Sobre"
   url: "sobre"
-- title: "News"
-  url: "news"
