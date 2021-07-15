@@ -1,8 +1,8 @@
 - title: "SAST"
-  url: "docs/getting-started"
+  url: "docs/sast"
   children:
     - title: Checkmarx
-      url: "docs/getting-started#getting-started"
+      url: "docs/sast#SAST - Static Application Security Testing"
 - title: "SCA"
   url: "docs/extras"
   children:

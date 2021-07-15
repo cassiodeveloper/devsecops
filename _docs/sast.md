@@ -1,35 +1,27 @@
 ---
-title: Getting Started
+title: SAST - Static Application Security Testing
 tags: 
- - jekyll
- - github
+ - sast
+ - checkmarx
+ - cli
+ - plugin
 ---
 
-# Getting Started
+# SAST - Static Application Security Testing
 
-## Features
+## SAST SCAN
 
-### User Interaction
+### Definição
 
-If you look at any header field on the page, you'll notice three little dots 
-(called an elipsis) that if you mouse over, will open up to give you options
-for Permalink, Edit this Page, and Ask a Question. 
-These are to ensure that a user is able to link someone else directly to a section
-of interest (Permalink), contribute a fix or suggestion to the documentation itself on GitHub
-(Edit this page) or open up an issue that links directly to where the user has
-the question. Documentation is hard, and sometimes unclear, and the site
-should make it easy to ask a question or suggest a change.
+Executamos um scan SAST quando queremos buscar por vulnerabilidades em nosso código fonte.
 
-### Search
+### Checkmarx SAST
 
-The entire site, including posts and documentation, is indexed and then available
-for search at the top of the page. Give it a try! The content is rendered
-from [this file](https://github.com/vsoch/mkdocs-jekyll/blob/master/search/search_index.json)
-into [this json data structure](https://vsoch.github.io/mkdocs-jekyll/search/search_index.json)
-that feeds into the search defined in `assets/js/application.js`. If you want to
-exclude any file from search, add this to its front end matter:
+Checkmarx SAST (CxSAST) é uma solução de análise estática precisa e flexível de nível corporativo usada para identificar centenas de vulnerabilidades de segurança em código personalizado. Ele é usado por equipes de desenvolvimento, DevOps e segurança para verificar o código-fonte no início do SDLC, identificar vulnerabilidades e fornecer insights acionáveis para corrigi-los. Suportando mais de 25 linguagens de codificação e script e suas estruturas com configuração zero para fazer a varredura de qualquer linguagem.
 
-```
+[Mais](https://www.checkmarx.com/products/static-application-security-testing/)
+
+<!-- ```
 ---
 layout: null
 excluded_in_search: true
@@ -417,4 +409,4 @@ tags:
 ```
 
 They are appended to the first h1 block, so generally your pages should have a header.
-
+ -->
