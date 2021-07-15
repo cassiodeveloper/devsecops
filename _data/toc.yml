@@ -1,17 +1,17 @@
 - title: "SAST"
   url: "docs/getting-started"
   children:
-    - title: Features
+    - title: Checkmarx
       url: "docs/getting-started#getting-started"
 - title: "SCA"
   url: "docs/extras"
   children:
-    - title: Quizzes
+    - title: Checkmarx
       url: "docs/extras/example-quiz"
 - title: "DAST"
   url: "docs/getting-started"
   children:
-    - title: Features
+    - title: Acunetix
       url: "docs/getting-started#getting-started"      
 - title: "Container Security"
   url: "docs/getting-started"
@@ -31,7 +31,7 @@
 - title: "IaC"
   url: "docs/getting-started"
   children:
-    - title: Features
+    - title: Checkmarx
       url: "docs/getting-started#getting-started"      
 - title: "Sobre"
   url: "sobre"
