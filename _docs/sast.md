@@ -21,13 +21,24 @@ Checkmarx SAST (CxSAST) é uma solução de análise estática precisa e flexív
 
 [Mais](https://www.checkmarx.com/products/static-application-security-testing/)
 
-<!-- ```
+### Checkmarx CxCLI
+
+```
 ---
-layout: null
-excluded_in_search: true
+Modo síncrono: runCxConsole Scan -v -CxServer <host> -ProjectName <projectName> -CxUser <username> -CxPassword <password> -LocationType <LocationType> -LocationPath <locationpath>
+
+Exemplo Windows: runCxConsole.cmd Scan -v -ProjectName "CxServer/MeuProjeto" -CxServer http://localhost -cxuser username -cxpassword DeVsEcOpS -LocationType folder -LocationPath "C:\Data\Projects\Java\MeuProjeto" -preset "Checkmarx Default"
+
+Exemplo Linux: runCxConsole.sh Scan -v -ProjectName "CxServer/MeuProjeto" -CxServer http://localhost -cxuser username -cxpassword DeVsEcOpS -LocationType folder -LocationPath "C:\Data\Projects\Java\MeuProjeto" -preset "Checkmarx Default"
+
+Modo assíncrono: runCxConsole AsyncScan -v -CxServer <host> -ProjectName <projectName> -CxUser <username> -CxPassword <password> -LocationType <LocationType> -LocationPath <locationpath>
+
+Exemplo Windows: runCxConsole.cmd AsyncScan -v -ProjectName "CxServer/MeuProjeto" -CxServer http://localhost -cxuser username -cxpassword DeVsEcOpS -LocationType folder -LocationPath "C:\Data\Projects\Java\MeuProjeto" -preset "Checkmarx Default"
+
+Exemplo Linux: runCxConsole.sh AsyncScan -v -ProjectName "CxServer/MeuProjeto" -CxServer http://localhost -cxuser username -cxpassword DeVsEcOpS -LocationType folder -LocationPath "C:\Data\Projects\Java\MeuProjeto" -preset "Checkmarx Default"
 ---
 ```
-
+<!-- 
 The example above is for a css file in the assets folder that is used as a template, but should not be included in search. If you need to disable search entirely for a page, you can add the `disable_search` header:
 
 ```
