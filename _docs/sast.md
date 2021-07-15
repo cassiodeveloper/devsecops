@@ -21,7 +21,7 @@ Checkmarx SAST (CxSAST) é uma solução de análise estática precisa e flexív
 
 [Mais](https://www.checkmarx.com/products/static-application-security-testing/)
 
-### Checkmarx CxCLI
+## Checkmarx CxCLI
 
 CLI é um programa de linha de comando que aceita entrada de texto para executar funções do sistema operacional. Nas décadas de 1970 e 1980, a entrada de linha de comando era comumente usada por sistemas Unix e sistemas de PC como MS-DOS e Apple DOS. Hoje, com interfaces gráficas de usuário (GUI), a maioria dos usuários nunca usa interfaces de linha de comando (CLI). No entanto, a CLI ainda é usada por desenvolvedores de software e administradores de sistema para configurar computadores, instalar software e acessar recursos que não estão disponíveis na interface gráfica.
 
@@ -52,6 +52,10 @@ Exemplo Windows: runCxConsole.cmd AsyncScan -v -ProjectName "CxServer/MeuProjeto
 Exemplo Linux: runCxConsole.sh AsyncScan -v -ProjectName "CxServer/MeuProjeto" -CxServer http://localhost -cxuser username -cxpassword DeVsEcOpS -LocationType folder -LocationPath "C:\Data\Projects\Java\MeuProjeto" -preset "Checkmarx Default"
 ---
 ```
+
+### Referências
+
+<p class="editor-link"><a href="https://checkmarx.atlassian.net/wiki/spaces/SD/pages/1339424904/CLI+Plugin" target="blank" class="btn"><strong>&#9998;</strong>Documentação oficial</a></p>
 <!-- 
 The example above is for a css file in the assets folder that is used as a template, but should not be included in search. If you need to disable search entirely for a page, you can add the `disable_search` header:
 
