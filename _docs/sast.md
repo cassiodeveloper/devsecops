@@ -52,10 +52,37 @@ Exemplo Windows: runCxConsole.cmd AsyncScan -v -ProjectName "CxServer/MeuProjeto
 Exemplo Linux: runCxConsole.sh AsyncScan -v -ProjectName "CxServer/MeuProjeto" -CxServer http://localhost -cxuser username -cxpassword DeVsEcOpS -LocationType folder -LocationPath "C:\Data\Projects\Java\MeuProjeto" -preset "Checkmarx Default"
 ---
 ```
-
 ### Referências
 
 <p class="editor-link"><a href="https://checkmarx.atlassian.net/wiki/spaces/SD/pages/1339424904/CLI+Plugin" target="blank" class="btn"><strong>&#9998;</strong>Documentação oficial</a></p>
+
+## CicleCI
+
+No exemplo abaixo, um YAML é utilziado para configurar o job do CircleCI para executar o CxCLI para realizar um scan síncrono.
+```
+---
+version: 2.1
+
+jobs:
+  build-and-test:  
+    docker:
+      - image: cimg/openjdk:11.0
+    steps:
+      - checkout
+      - run: |
+          wget https://download.checkmarx.com/9.3.0GA/Plugins/CxConsolePlugin-1.1.5.zip
+          mkdir CxConsolePlugin
+          unzip CxConsolePlugin-1.1.5.zip -d CxConsolePlugin
+          cd CxConsolePlugin
+          chmod +x runCxConsole.sh
+          pwd
+          ./runCxConsole.sh Scan -v -ProjectName "CxServer/MeuProjeto" -CxServer http://localhost -cxuser username -cxpassword DeVsEcOpS -LocationType folder -LocationPath "C:\Data\Projects\Java\MeuProjeto" -preset "Checkmarx Default"
+workflows:
+  build_scan: 
+    jobs:
+      - build-and-test
+---
+```
 <!-- 
 The example above is for a css file in the assets folder that is used as a template, but should not be included in search. If you need to disable search entirely for a page, you can add the `disable_search` header:
 
