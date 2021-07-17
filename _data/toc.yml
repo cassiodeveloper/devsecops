@@ -4,10 +4,10 @@
     - title: Checkmarx
       url: "docs/sast#SAST - Static Application Security Testing"
 - title: "SCA"
-  url: "docs/extras"
+  url: "docs/sca"
   children:
     - title: Checkmarx
-      url: "docs/extras/example-quiz"
+      url: "docs/sca#SCA - Software Composition Analysis"
 - title: "DAST"
   url: "docs/getting-started"
   children:
