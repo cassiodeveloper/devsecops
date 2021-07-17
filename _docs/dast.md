@@ -21,6 +21,8 @@ Acunetix 360 é a melhor solução de vulnerabilidade da web corporativa projeta
 
 ## Jenkins
 
+> Para o correto funcionamento, instalar o plugin do Jenkins antes https://plugins.jenkins.io/acunetix-360-scan/
+
 No exemplo abaixo, um script para pipeline do jenkins simplificado é utilziado para configurar o pipeline do Jenkins para executar um scan.
 ```
 ---
