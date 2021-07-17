@@ -9,10 +9,10 @@
     - title: Checkmarx
       url: "docs/sca#SCA - Software Composition Analysis"
 - title: "DAST"
-  url: "docs/getting-started"
+  url: "docs/dast"
   children:
     - title: Acunetix
-      url: "docs/getting-started#getting-started"      
+      url: "docs/dast#DAST - Dynamic Application Security Testing"      
 - title: "Container Security"
   url: "docs/getting-started"
   children:
